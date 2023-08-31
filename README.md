@@ -69,3 +69,7 @@ Your application should consist of the following components:
 • Integrate the form with the mock API to add new messages.
 • Use Tailwind CSS for styling.
 • Leverage Pinia for state management.
+
+
+### Output link :
+https://tinyurl.com/26xl8pak
