@@ -39,7 +39,21 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+### Tailwind css setup 
+install Tailwind CSS and its peer dependencies:
+`npm install -D tailwindcss postcss autoprefixer`
 
+Generate the configuration files required for Tailwind CSS to work:
+`npx tailwindcss init -p`
+
+Open the tailwind.config.js file and update its content:
+` module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};`
 
 Requirement:
 Your application should consist of the following components:
